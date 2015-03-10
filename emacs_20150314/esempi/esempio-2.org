@@ -1,0 +1,8 @@
+Questo è il testo che non mi interessa.
+Sta bene qui e non serve nel documento 1.
+
+Questo è il testo che devo copiare e incollare nel documento 1.
+Esisterà un modo per farlo velocemente, vero?
+Proviamoci.
+
+esercizio

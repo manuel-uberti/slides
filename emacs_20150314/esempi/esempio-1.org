@@ -1,0 +1,65 @@
+1
+
+Qualche esempio delle capacità di Emcas.
+Facciamo finta che copiando e incollando Emcas ho ripetuto più volte un errore di battitura.
+Un elaboratore di testi offre la funzione "cerca e sostituisci" per correggere la scritta "Emcas".
+Il che, solitamente, comporta andare richiamare richiamare il pannello di "cerca e sostituisci", inserire "Emcas" e dirgli di sostituirlo con "Emacs".
+Come si fa in Emcas?
+
+
+2
+
+Questa è una riga di prova.
+Anche questa è una riga di prova.
+E sì, anche questa è una riga di prova.
+Ho bisogno di spostare questa e la riga successiva sopra le tre precedenti.
+Posso farlo con Emacs?
+
+
+3
+
+Facciamo finta che, per la fretta, ho scritto il mio nome in minuscolo: manuel uberti.
+Ho bisogno che la 'm' e la 'u' siano lettere maiuscole. Come fare?
+
+
+4
+
+Ho appena scritto il mio nome in questo modo: Uberti Manuel.
+Bello, ma nel documento che mi hanno chiesto mi hanno espressamente indicato di scrivere prima il nome e poi il cognome.
+Si può correggere senza dovere tagliare e incollare o riscrivere una delle due parole?
+
+
+5
+
+Ho una porzione nel testo in altro documento che devo copiare qui sotto. Come faccio?
+
+
+6
+
+Il testo che segue questa riga va copiato sopra il punto uno.
+Questo è il testo da portare sopra il punto 1.
+Facciamolo.
+
+
+7
+
+Il punto 2 è importante, devo tornarci per leggere alcune cose.
+Poi però devo tornare esattamente al punto 7.
+Come faccio?
+
+
+8
+
+Non c'è un modo più veloce per saltare all'occorrenza precedente della parola Manuel?
+
+
+9
+
+Non ricordo se ho scritto la parola "esercizio" in un altro documento oltre a questo.
+Posso cercare in altri file?
+
+
+10
+
+"Questa è una bellissima frase detta da famosissimo personaggio."
+Posso copiare SOLO il testo fra le virgolette?

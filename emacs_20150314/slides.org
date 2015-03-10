@@ -1,0 +1,148 @@
+#+STARTUP: showall
+#+STYLE:p { font-family: Charter; font-size: 14pt}
+#+STYLE:pre { font-family: Source Code Pro; font-size:14pt}
+#+STYLE:.title { text-align: center; font-family: Charter}
+#+STYLE:h2 { font-family: Charter }
+#+STYLE:li { font-family: Charter }
+
+* [[file:header/header.png]]                                              :slide:
+*CHE COS'È EMACS?*
+
+[[file:images/emacs-logo-300.png]]
+
+Emacs è un *editor di testo* nato a metà degli anni '70 e il cui sviluppo è ancora attivo.
+
+Emacs *non* è un elaboratore di testo -> Il testo scritto con Emacs è /plain text/
+
+* [[file:header/header.png]]					      :slide:
+*PERCHÉ EMACS!?*
+
+Perché usare un editor di testo così vecchio?
++ ci sono tantissime combinazioni di tasti da imparare
++ nel manuale contenuto in Emacs, le combinazioni di taste sono spiegate usando questa strana forma:
+#+BEGIN_EXAMPLE
+C-x C-n
+#+END_EXAMPLE
+oppure:
+#+BEGIN_EXAMPLE
+C-c C-e h h
+#+END_EXAMPLE
+
+* [[file:header/header.png]]					      :slide:
+
+[[file:images/emacs-vs-writer.png]]
+
+Programmi come LibreOffice Writer e Office Word permettono di avere grassetto, corsivo, cambiare font, ecc.
+
+Emacs *non* formatta il testo.
+
+Emacs *non* permette di incollare immagini nel testo che stiamo scrivendo.
+
+Emacs *non* salva i file che scriviamo nei formati più noti (.doc/.docx/.odt).
+
+* [[file:header/header.png]]					      :slide:
+Emacs appena installato è brutto da vedere
+
+[[file:images/emacs_fedora.png]]
+
+* [[file:header/header.png]]					      :slide:
+Chi usa Emacs prima o poi avrà a che fare con Emacs Lisp, un dialetto di Lisp che si presenta in modi spaventosi come questo:
+#+BEGIN_SRC emacs-lisp
+(setq redisplay-dont-pause t
+      scroll-margin 1
+      scroll-step 1
+      scroll-conservatively 10000
+      scroll-preserve-screen-position 1)
+#+END_SRC
+
+* [[file:header/header.png]]					      :slide:
+Allora, *perché* usare Emacs!?
+
+Emacs *aiuta* a concentrarsi sul testo che stiamo scrivendo.
+
+Emacs può essere configurato in modo da lasciare spazio sullo schermo *solo* al testo.
+
+* [[file:header/header.png]]					      :slide:
+
+[[file:images/emacs-runner.png]]
+
+Emacs permette di fare tutto *senza* allontanare le mani dalla tastiera.
+
+Spostare la mano sul mouse = *perdere tempo* (provatelo!)
+
+* [[file:header/header.png]]					      :slide:
+
+Emacs permette di spostarsi fra caratteri, parole, righe e paragrafi *rapidamente*.
+
+Emacs consente di *cercare* avanti e indietro nel testo direttamente dalla tastiera, sia con chiavi di ricerca semplici che con *espressioni regolari*.
+
+Emacs *non* ha finestre di dialogo (popup)!
+
+[[file:images/ultra-emacs.png]]
+
+* [[file:header/header.png]]					      :slide:
+
+[[file:images/emacs-export.png]]
+
+Esistono già *tante estensioni* per semplificare o migliorare esigenze
+specifiche:
+
++ formattazione del testo (LaTeX) -> ESEMPIO
++ esportazione in vari formati (PDF, HTML) -> ESEMPIO
++ integrazione con linguaggi di programmazione
++ ...
+
+* [[file:header/header.png]]					      :slide:
+
+Emacs è altamente *personalizzabile*.
+
+Sta a voi *scegliere* fino a che punto adattarlo alle vostre esigenze.
+
+Per i più coraggiosi, il codice sorgente è *liberamente scaricabile e consultabile*.
+
+* [[file:header/header.png]]					      :slide:
+
+Emacs, sempre a discrezione dell'utente, consente di:
+
++ navigare sul web
++ leggere la posta elettronica
++ aggregare feed RSS
++ fare conti matematici
++ consultare il calendario
++ creare PDF e HTML
++ esplorare i file del proprio sistema
++ modificare file via remoto
++ ...
+
+* [[file:header/header.png]]					      :slide:
+
+La cosa fondamentale è *non* avere paura di incrociare le dita sulla tastiera!
+
+[[file:images/emacs_octopus.png]]
+
+
+* [[file:header/header.png]]					      :slide:
+
+*DOMANDE?*
+
+[[file:images/thinking_boy_bright.png]]
+
+
+#+OPTIONS: num:nil tags:t toc:nil
+
+#+TAGS: slide(s)
+
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="style.css" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="common.css" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="screen.css" media="screen" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="projection.css" media="projection" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="presenter.css" media="presenter" />
+
+#+BEGIN_HTML
+<script type="text/javascript" src="org-html-slideshow.js"></script>
+#+END_HTML
+
+# Local Variables:
+# org-html-head-include-default-style: nil
+# org-html-head-include-scripts: nil
+# End:
