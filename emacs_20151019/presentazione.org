@@ -1,0 +1,28 @@
+#+STARTUP: showall
+#+OPTIONS: num:nil toc:nil
+#+REVEAL_EXTRA_CSS: ./reveal.extra.css
+#+TITLE: Emacs
+
+* EMACS!?
+** Emacs è un editor di testo
+** Emacs non è un word processor come LibreOffice Writer o MS Word
+** Emacs lavora con plain text
+
+* PERCHÉ EMACS!?
+** infinitamente estensibile
+** altamente personalizzabile
+** potente editing del testo
+
+* COME USO EMACS!?
+** Org mode
+*** agenda (todo, note, scadenze)
+*** blog (controllo ortografico, pubblicazione on-the-fly)
+*** presentazioni
+** LaTeX
+*** moduli, lettere, dispense
+*** PDF
+** Dired
+*** gestione file locali
+*** gestione file remoti (bookmarks)
+** Clojure
+*** CIDER

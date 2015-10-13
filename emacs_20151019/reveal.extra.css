@@ -1,0 +1,23 @@
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  text-rendering: optimizeLegibility;
+  font-family: Fontin;
+  color: #586e75;
+}
+
+.reveal h2 {
+  font-size: 2em;
+}
+
+.reveal .slide-background {
+  background-color: #fdf6e3;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

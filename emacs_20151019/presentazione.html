@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Emacs</title>
+<meta name="author" content="(Manuel Uberti)"/>
+<link rel="stylesheet" href="file:///home/manuel/reveal.js/css/reveal.css"/>
+<link rel="stylesheet" href="file:///home/manuel/reveal.js/css/theme/moon.css" id="theme"/>
+<link rel="stylesheet" href="./reveal.extra.css"/>
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'file:///home/manuel/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1>Emacs</h1>
+<h2>Manuel Uberti</h2>
+<h2><a href="mailto:manuel@boccaperta.com">manuel@boccaperta.com</a></h2>
+<h2></h2>
+</section>
+
+<section>
+<section id="slide-orgheadline4">
+<h2 id="orgheadline4">EMACS!?</h2>
+<div class="outline-text-2" id="text-orgheadline4">
+</div></section>
+<section id="slide-orgheadline1">
+<h3 id="orgheadline1">Emacs è un editor di testo</h3>
+</section>
+<section id="slide-orgheadline2">
+<h3 id="orgheadline2">Emacs non è un word processor come LibreOffice Writer o MS Word</h3>
+</section>
+<section id="slide-orgheadline3">
+<h3 id="orgheadline3">Emacs lavora con plain text</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline8">
+<h2 id="orgheadline8">PERCHÉ EMACS!?</h2>
+<div class="outline-text-2" id="text-orgheadline8">
+</div></section>
+<section id="slide-orgheadline5">
+<h3 id="orgheadline5">infinitamente estensibile</h3>
+</section>
+<section id="slide-orgheadline6">
+<h3 id="orgheadline6">altamente personalizzabile</h3>
+</section>
+<section id="slide-orgheadline7">
+<h3 id="orgheadline7">potente editing del testo</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline21">
+<h2 id="orgheadline21">COME USO EMACS!?</h2>
+<div class="outline-text-2" id="text-orgheadline21">
+</div></section>
+<section id="slide-orgheadline12">
+<h3 id="orgheadline12">Org mode</h3>
+<div class="outline-text-3" id="text-orgheadline12">
+</div></section>
+<section id="slide-orgheadline9">
+<h4 id="orgheadline9">agenda (todo, note, scadenze)</h4>
+</section>
+<section id="slide-orgheadline10">
+<h4 id="orgheadline10">blog (controllo ortografico, pubblicazione on-the-fly)</h4>
+</section>
+<section id="slide-orgheadline11">
+<h4 id="orgheadline11">presentazioni</h4>
+</section>
+<section id="slide-orgheadline15">
+<h3 id="orgheadline15">LaTeX</h3>
+<div class="outline-text-3" id="text-orgheadline15">
+</div></section>
+<section id="slide-orgheadline13">
+<h4 id="orgheadline13">moduli, lettere, dispense</h4>
+</section>
+<section id="slide-orgheadline14">
+<h4 id="orgheadline14">PDF</h4>
+</section>
+<section id="slide-orgheadline18">
+<h3 id="orgheadline18">Dired</h3>
+<div class="outline-text-3" id="text-orgheadline18">
+</div></section>
+<section id="slide-orgheadline16">
+<h4 id="orgheadline16">gestione file locali</h4>
+</section>
+<section id="slide-orgheadline17">
+<h4 id="orgheadline17">gestione file remoti (bookmarks)</h4>
+</section>
+<section id="slide-orgheadline20">
+<h3 id="orgheadline20">Clojure</h3>
+<div class="outline-text-3" id="text-orgheadline20">
+</div></section>
+<section id="slide-orgheadline19">
+<h4 id="orgheadline19">CIDER</h4>
+</section>
+</section>
+</div>
+</div>
+<script src="file:///home/manuel/reveal.js/lib/js/head.min.js"></script>
+<script src="file:///home/manuel/reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: false,
+progress: false,
+history: false,
+center: true,
+slideNumber: false,
+rollingLinks: false,
+keyboard: true,
+overview: false,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+});
+</script>
+</body>
+</html>
