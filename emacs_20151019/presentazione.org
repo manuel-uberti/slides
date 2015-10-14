@@ -5,13 +5,14 @@
 
 * EMACS!?
 ** Emacs è un editor di testo
-** Emacs non è un word processor come LibreOffice Writer o MS Word
+** Non è un word processor come LibreOffice Writer o MS Word
 ** Emacs lavora con plain text
 
 * PERCHÉ EMACS!?
-** infinitamente estensibile
-** altamente personalizzabile
-** potente editing del testo
+** (1) Personalizzabile su misura
+*** tutto è configurabile
+*** migliaia di estensioni
+** (2) Potente editing del testo
 
 * COME USO EMACS!?
 ** Org mode
