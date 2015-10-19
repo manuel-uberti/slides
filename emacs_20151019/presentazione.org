@@ -1,5 +1,5 @@
 #+STARTUP: showall
-#+OPTIONS: num:nil toc:nil
+#+OPTIONS: num:nil toc:nil title:nil reveal_title_slide:nil
 #+REVEAL_EXTRA_CSS: ./reveal.extra.css
 #+TITLE: Emacs
 
@@ -20,7 +20,7 @@
 *** blog (controllo ortografico, pubblicazione on-the-fly)
 *** presentazioni
 ** LaTeX
-*** moduli, lettere, dispense
+*** moduli, lettere, dispense, preventivi
 *** PDF
 ** Dired
 *** gestione file locali
