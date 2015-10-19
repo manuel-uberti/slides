@@ -3,7 +3,9 @@
 .reveal h3,
 .reveal h4,
 .reveal h5,
-.reveal h6 {
+.reveal h6,
+.reveal p,
+.reveal a {
   text-rendering: optimizeLegibility;
   font-family: Fontin;
   /*color: #586e75;*/

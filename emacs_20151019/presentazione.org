@@ -27,3 +27,8 @@
 *** gestione file remoti (bookmarks)
 ** Clojure
 *** CIDER
+
+* LINK UTILI
++ https://github.com/manuel-uberti/.emacs.d
++ https://github.com/manuel-uberti/slides
++ http://informatica.boccaperta.com
