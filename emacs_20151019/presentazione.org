@@ -27,7 +27,7 @@
 *** gestione file remoti (bookmarks)
 ** Git
 *** Magit
-http://magit.vc/
+Sito: http://magit.vc/
 
 * LINK UTILI
 + https://github.com/manuel-uberti/.emacs.d
